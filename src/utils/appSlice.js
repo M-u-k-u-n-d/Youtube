@@ -6,10 +6,8 @@ const appSlice = createSlice({
         isMenuOpen: false,
     },
     reducers: {
-        toogleMenu: (state,val) => {
-            if(val.payload)
-            state.isMenuOpen = !val.payload;
-            else state.isMenuOpen = !state.isMenuOpen;
+        toogleMenu: (state) => {
+            state.isMenuOpen = !state.isMenuOpen;
         },
     },
 });

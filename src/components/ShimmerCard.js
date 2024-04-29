@@ -2,44 +2,23 @@ import React from 'react'
 
 const ShimmerCard = () => {
   return (
-    <div className='flex flex-wrap justify-center'>
-        <div className='m-2 bg-gray-200 w-96 h-[300px] rounded-xl'>
-            <div className='mt-[240px] bg-white h-[30px] w-full rounded-xl'></div>
-        </div>
-        <div className='m-2 bg-gray-200 w-96 h-[300px] rounded-xl'>
-            <div className='mt-[240px] bg-white h-[30px] w-full rounded-xl'></div>
-        </div>
-        <div className='m-2 bg-gray-200 w-96 h-[300px] rounded-xl'>
-            <div className='mt-[240px] bg-white h-[30px] w-full rounded-xl'></div>
-        </div>
-        <div className='m-2 bg-gray-200 w-96 h-[300px] rounded-xl'>
-            <div className='mt-[240px] bg-white h-[30px] w-full rounded-xl'></div>
-        </div>
-        <div className='m-2 bg-gray-200 w-96 h-[300px] rounded-xl'>
-            <div className='mt-[240px] bg-white h-[30px] w-full rounded-xl'></div>
-        </div>
-        <div className='m-2 bg-gray-200 w-96 h-[300px] rounded-xl'>
-            <div className='mt-[240px] bg-white h-[30px] w-full rounded-xl'></div>
-        </div>
-        <div className='m-2 bg-gray-200 w-96 h-[300px] rounded-xl'>
-            <div className='mt-[240px] bg-white h-[30px] w-full rounded-xl'></div>
-        </div>
-        <div className='m-2 bg-gray-200 w-96 h-[300px] rounded-xl'>
-            <div className='mt-[240px] bg-white h-[30px] w-full rounded-xl'></div>
-        </div>
-        <div className='m-2 bg-gray-200 w-96 h-[300px] rounded-xl'>
-            <div className='mt-[240px] bg-white h-[30px] w-full rounded-xl'></div>
-        </div>
-        <div className='m-2 bg-gray-200 w-96 h-[300px] rounded-xl'>
-            <div className='mt-[240px] bg-white h-[30px] w-full rounded-xl'></div>
-        </div>
-        <div className='m-2 bg-gray-200 w-96 h-[300px] rounded-xl'>
-            <div className='mt-[240px] bg-white h-[30px] w-full rounded-xl'></div>
-        </div>
-        <div className='m-2 bg-gray-200 w-96 h-[300px] rounded-xl'>
-            <div className='mt-[240px] bg-white h-[30px] w-full rounded-xl'></div>
-        </div>
-        
+    <div className="flex flex-wrap justify-center  w-[80vw] m-auto mr-5">
+        <div className='m-2 p-2 bg-gray-200 w-80 h-[200px] rounded-xl'></div>
+        <div className='m-2 p-2 bg-gray-200 w-80 h-[200px] rounded-xl'></div>
+        <div className='m-2 p-2 bg-gray-200 w-80 h-[200px] rounded-xl'></div>
+        <div className='m-2 p-2 bg-gray-200 w-80 h-[200px] rounded-xl'></div>
+        <div className='m-2 p-2 bg-gray-200 w-80 h-[200px] rounded-xl'></div>
+        <div className='m-2 p-2 bg-gray-200 w-80 h-[200px] rounded-xl'></div>
+        <div className='m-2 p-2 bg-gray-200 w-80 h-[200px] rounded-xl'></div>
+        <div className='m-2 p-2 bg-gray-200 w-80 h-[200px] rounded-xl'></div>
+        <div className='m-2 p-2 bg-gray-200 w-80 h-[200px] rounded-xl'></div>
+        <div className='m-2 p-2 bg-gray-200 w-80 h-[200px] rounded-xl'></div>
+        <div className='m-2 p-2 bg-gray-200 w-80 h-[200px] rounded-xl'></div>
+        <div className='m-2 p-2 bg-gray-200 w-80 h-[200px] rounded-xl'></div>
+        <div className='m-2 p-2 bg-gray-200 w-80 h-[200px] rounded-xl'></div>
+        <div className='m-2 p-2 bg-gray-200 w-80 h-[200px] rounded-xl'></div>
+        <div className='m-2 p-2 bg-gray-200 w-80 h-[200px] rounded-xl'></div>
+        <div className='m-2 p-2 bg-gray-200 w-80 h-[200px] rounded-xl'></div>
     </div>
   )
 }

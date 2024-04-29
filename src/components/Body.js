@@ -28,7 +28,7 @@ const Body = () => {
             <div className="w-full">
               <Header />
               <Outlet/>
-            </div>
+              </div>
         </div>
     );
 }

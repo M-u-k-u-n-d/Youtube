@@ -5,7 +5,7 @@ import SearchPageCard from "./SearchPageCard";
 const SearchPage = () => {
   const content = useSelector((store) => store.video.contents);
   return (
-    <div className="mt-20">
+    <div className="mt-20 w-[60vw] m-auto">
       {content[0].map((content) => (
         <SearchPageCard
           key={content?.id?.videoId}

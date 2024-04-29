@@ -21,14 +21,12 @@ const VideoContainer = () => {
     setVideos(data.items);
   };
 
-  const handleSideMenu = () => {
-    dispatch(toogleMenu(false));
-  };
+ 
 
   if (videos == null) return <ShimmerCard/>
   return (
     <div
-      className="flex flex-wrap justify-center  w-[80vw] m-auto"
+      className="flex flex-wrap justify-center  w-[80vw] m-auto mr-5"
     >
       {/* {
         content[0].forEach((c) => console.log(c))
@@ -46,7 +44,7 @@ const VideoContainer = () => {
               ? video?.id?.videoId
               : video?.id
           }
-         onClick={handleSideMenu}>
+      >
           <VideoCard
             info={
               video.kind === "youtube#searchResult"
